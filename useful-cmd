@@ -1,0 +1,1 @@
+rm -ri `find . -name Make*|egrep -v CMakeLists.txt`移除除CMakeLists.txt外的所有包含Make的文件和文件夹
