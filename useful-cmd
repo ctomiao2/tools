@@ -1,2 +1,4 @@
 rm -ri `find . -name Make*|egrep -v CMakeLists.txt`移除除CMakeLists.txt外的所有包含Make的文件和文件夹
 pwd 查看当前路径
+adduser 添加新用户, 如需给新用户添加sudo权限需在/etc/sudoers（切到root用户使用whereis sudoers查看具体路径），用chmod u+w /etc/sudoers添加写权限, 在root ALL=(ALL)ALL下添加xxx ALL=(ALL)ALL， 修改完毕chmod u-w /etc/sudoers恢复权限
+chmod u+w xxx和chmod u-w xxx添加删除写入权限 
