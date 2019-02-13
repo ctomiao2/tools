@@ -1,0 +1,1 @@
+1. 使用xshell在windows与linux之间传输文件：sudo apt-get install lrzsz, rz从windows上传文件到linux, sz下载
